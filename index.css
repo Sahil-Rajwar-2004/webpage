@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+}
+
+body{
+    background-color: rgb(36,37,42);
+}
+
+header{
+    display: flex;
+    padding: 15px;
+    font-size: x-large;
+    font-family: "Sofia",sans-serif;
+    color: white;
+    padding-left: 37%;
+    background-color: rgb(36,37,42);
+    transition: color 0.5s ease;
+}
+
+header:hover{
+    color: aquamarine;
+}
+
+.introduction{
+    display: flexbox;
+    padding: 10px;
+    font-family: "Sofia",monospace;
+    font-size: x-large;
+    color: white;
+}
+
+.para-1{
+    padding-bottom: 30px;
+}
+
+.other-interest li{
+    list-style: none;
+    color: orange;
+}
+
+.my-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+    text-decoration: underline red;
+    font-size: xx-large;
+}
+
+.for-padding{
+    padding-top: 15px;
+}
+
+li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    font-size: small;
+    font-family: monospace;
+    color: white;
+}
+
+.my-interest{
+    font-family: "Sofia",sans-serif;
+    color: coral;
+    text-decoration: underline white;
+    font-size: xx-large;
+}
+
+li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.lists{
+    display: flex;
+}
+
+.lists img{
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.my-wishes{
+    font-family: "Sofia",sans-serif;
+    color: coral;
+    text-decoration: underline white;
+    font-size: xx-large;
+}
+
+.my-wishes div{
+    padding-top: 10px;
+}
+
+.thanks{
+    font-family: "Sofia",sans-serif;
+    color: coral;
+    text-decoration: underline white;
+    font-size: xx-large;
+}
+
+.editor{
+    font-family: "Sofia",sans-serif;
+    color: coral;
+    text-decoration: underline white;
+    font-size: xx-large;
+}
+
+::-webkit-scrollbar{
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888888;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
+}
