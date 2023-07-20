@@ -37,15 +37,39 @@ header:hover{
     padding-bottom: 30px;
 }
 
-
 .other-interest{
-    font-size: xx-large;
+    font-family: "Sofia";
+    font-size: x-large;
     text-decoration: underline white;
     color: coral;
 }
 
+.for-padding-1{
+    padding-left: 10px;
+}
+
+.for-padding-2{
+    padding-left: 10px;
+}
+
+.for-padding-3{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.more-info{
+    padding-left: 10px;
+}
+
 .interest li{
     font-family: monospace;
+    color: white;
+    font-size: large;
+    transition: color 0.5s ease;
+}
+
+.interest li:hover{
+    color: aquamarine;
 }
 
 .other-interest li{
@@ -61,6 +85,7 @@ header:hover{
 
 .for-padding{
     padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 li a{
@@ -94,18 +119,13 @@ a{
     display: flex;
 }
 
-.list{
-    color: white;
-    transition: color 0.5s ease;
-}
-
 .list:hover{
     color: aquamarine;
 }
 
 .lists img{
     padding-top: 10px;
-    padding-left: 5px;
+    padding-left: 10px;
     width: 30px;
     height: 30px;
 }
@@ -133,6 +153,36 @@ a{
     color: coral;
     text-decoration: underline white;
     font-size: xx-large;
+}
+
+.more-info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-media-container p{
+    padding: 10px;
+    padding-left: 37%;
+    font-family: monospace;
+    font-size: xx-large;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.social-media-container p:hover{
+    color: aquamarine;
+}
+
+.social-media-container img{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.social-media-container ul{
+    padding-left: 37%;
+    padding-bottom: 60px;
 }
 
 ::-webkit-scrollbar{
